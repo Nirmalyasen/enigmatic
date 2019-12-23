@@ -3,22 +3,20 @@ ou: users
 objectClass: top
 objectClass: organizationalUnit
 
-dn: uid=john,ou=users,dc=example,dc=org
-cn: John Doe
+dn: cn=john,ou=users,dc=example,dc=org
+cn: john
 givenName: John
 sn: Doe
-uid: john
 objectClass: top
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
 objectClass: person
 userPassword: {SSHA}He7V0Ll9jjVhGy2hYM+h2qccjvF0EpMD
 
-dn: uid=mark,ou=users,dc=example,dc=org
-cn: Mark Doe
+dn: cn=mark,ou=users,dc=example,dc=org
+cn: mark
 givenName: Mark
 sn: Doe
-uid: mark
 objectClass: top
 objectClass: inetOrgPerson
 objectClass: organizationalPerson
@@ -34,11 +32,11 @@ dn: cn=dev,ou=groups,dc=example,dc=org
 objectClass: groupOfNames
 cn: dev
 description: All users
-member: uid=john,ou=users,dc=example,dc=org
+member: cn=john,ou=users,dc=example,dc=org
 
 dn: cn=ops,ou=groups,dc=example,dc=org
 objectClass: groupOfNames
 cn: ops
 description: All users
-member: uid=mark,ou=users,dc=example,dc=org
-member: uid=john,ou=users,dc=example,dc=org
+member: cn=mark,ou=users,dc=example,dc=org
+member: cn=john,ou=users,dc=example,dc=org
