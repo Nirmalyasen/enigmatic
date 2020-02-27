@@ -1,0 +1,12 @@
+{
+  "key1": "value1",
+  "key2": "value2",
+  "service1": {
+      "install": "true",
+      "image": "image1"
+  },
+  "service2": {
+      "install": "true",
+      "image": "image1"
+  }
+}
