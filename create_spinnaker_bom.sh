@@ -74,10 +74,6 @@ cd ../
 mkdir rosco
 cd rosco/
 gsutil -m cp -R gs://halconfig/rosco/$ROSCO_VER/* .
-# git checkout https://github.com/spinnaker/rosco/trunk/rosco-web/config/packer
-# sudo rm -r ./packer/.svn
-# cd ./packer
-# wget https://raw.githubusercontent.com/spinnaker/rosco/master/rosco-web/config/rosco.yml
 
 cd ../..
 tar -cvzf ../boms.tar.gz .boms
