@@ -22,6 +22,7 @@ IGOR_VER=$(yq r $FILE services.igor.version)
 KAYENTA_VER=$(yq r $FILE services.kayenta.version)
 ORCA_VER=$(yq r $FILE services.orca.version)
 ROSCO_VER=$(yq r $FILE services.rosco.version)
+sed -i -e  '/commit/{n;s/version: /version: local:/;}' $FILE
 
 cd ../
 mkdir ./echo
