@@ -1,7 +1,12 @@
 #!/bin/bash
 VER=$1
 
-[[ -z $VER ]] && echo "Please provide version. " && exit 1
+RED='\033[1;31m'
+NC='\033[0m'
+command -v yq || { echo -e "${RED}yq not found and is needed to run. Please install.${NC}."; exit 1; }
+command -v gsutil || { echo -e "${RED}gsutil not found and is needed to run. Please install.${NC}"; exit 1; }
+
+[[ -z $VER ]] && echo -e "${RED}Please provide version. ${NC}" && exit 1
 
 FILE=$VER.yml
 
