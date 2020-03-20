@@ -7,6 +7,6 @@
   },
   "service2": {
       "install": "false",
-      "image": "image21"
+      "image": "image22"
   }
 }
