@@ -1,0 +1,4 @@
+Fixes in this release:
+- warn before deleting items
+- adjust the price based on volume
+- prevent empty cart checkout
