@@ -6,7 +6,7 @@
       "image": "image1"
   },
   "service2": {
-      "install": "false",
+      "install": "true",
       "image": "image2"
   }
 }
