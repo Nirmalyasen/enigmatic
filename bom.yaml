@@ -2,5 +2,9 @@
   "nginx": {
       "install": "true",
       "image": "nginx:1.16"
+  },
+  "nodejs": {
+      "install": "true",
+      "image": "nodejs:alpine3.10"
   }
 }
