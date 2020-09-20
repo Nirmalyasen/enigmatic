@@ -1,6 +1,6 @@
 {
   "nginx": {
       "install": "true",
-      "image": "nginx:1.19"
+      "image": "nginx:1.18"
   }
 }
