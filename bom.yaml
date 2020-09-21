@@ -3,8 +3,8 @@
       "install": "true",
       "image": "nginx:1.16"
   },
-  "nodejs": {
+  "postgres": {
       "install": "true",
-      "image": "node:alpine3.10"
+      "image": "postgres:10-alpine"
   }
 }
