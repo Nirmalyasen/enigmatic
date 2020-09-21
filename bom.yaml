@@ -5,6 +5,6 @@
   },
   "nodejs": {
       "install": "true",
-      "image": "nodejs:alpine3.10"
+      "image": "node:alpine3.10"
   }
 }
