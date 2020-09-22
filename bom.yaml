@@ -1,10 +1,10 @@
 {
   "nginx": {
       "install": "true",
-      "image": "nginx:1.17"
+      "image": "nginx:1.18"
   },
   "postgres": {
       "install": "true",
-      "image": "postgres:11-alpine"
+      "image": "postgres:12-alpine"
   }
 }
