@@ -1,12 +1,12 @@
 {
   "nginx": {
       "install": "true",
-      "image": "nginx:1.15",
+      "image": "nginx:1.16",
       "namespace": "nginx"
   },
   "postgres": {
       "install": "true",
-      "image": "postgres:9-alpine",
+      "image": "postgres:10-alpine",
       "namespace": "postgres" 
   }
 }
