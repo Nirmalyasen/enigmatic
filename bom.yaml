@@ -7,6 +7,6 @@
   "postgres": {
       "install": "true",
       "image": "postgres:10-alpine",
-      "namespace": "postgres"
+      "namespace": "postgres" 
   }
 }
