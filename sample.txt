@@ -3,3 +3,4 @@ Fixes in this release:
 - adjust the price based on volume
 - prevent empty cart checkout
 - saml support
+- reduce logs
