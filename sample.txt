@@ -4,3 +4,4 @@ Fixes in this release:
 - prevent empty cart checkout
 - saml support
 - reduce logs
+- clear the line items
