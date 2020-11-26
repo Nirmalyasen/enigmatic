@@ -1,7 +1,7 @@
 {
   "nginx": {
       "install": "true",
-      "image": "nginx:1.17",
+      "image": "nginx:1.16",
       "namespace": "nginx"
   },
   "postgres": {
